@@ -6,7 +6,8 @@
 
 3. Create a config.json file and modify the contents as follows:
 
-```{
+```
+{
   "development":
   {
     "CONSUMER_KEY": "*********",
