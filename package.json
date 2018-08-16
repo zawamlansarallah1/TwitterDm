@@ -15,5 +15,8 @@
     "expect": "^23.5.0",
     "mocha": "^5.2.0",
     "supertest": "^3.1.0"
+  },
+  "dependencies": {
+    "twit": "^2.2.11"
   }
 }
