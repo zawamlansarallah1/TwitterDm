@@ -101,4 +101,4 @@ typings/
 .serverless
 
 #Config File Containing Twitter Keys
-./src/config/config.json
+/src/config/config.json
