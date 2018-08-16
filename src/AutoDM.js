@@ -1,6 +1,6 @@
 const T = require("./Twit.js");
 const my_user_name = require("./config/config").userName;
-const timeout = 1 * 60 * 5; // timeout to send the message 5 min
+const timeout = 1 * 60 * 5;
 
 const AutoDM = () => {
   const stream = T.stream("user");
@@ -48,7 +48,7 @@ const GenerateMessage = name =>
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `Well Done, Welcome to the IBM Open the Vault Challenge`;
+  return `Happy ${dayName} Welcome to the IBM Open the Vault Challenge`;
 };
 
 module.exports = AutoDM;
