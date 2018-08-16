@@ -1,0 +1,11 @@
+{
+  "name": "twitter-autodm",
+  "version": "1.0.0",
+  "description": "This is a twitter bot which is part of a coding challenge. When the user locates and follows the bot, the bot will give the user a direct message containing a clue. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Dane Williamson",
+  "license": "ISC"
+}
