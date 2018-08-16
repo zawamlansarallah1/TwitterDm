@@ -4,7 +4,9 @@
   "description": "This is a twitter bot which is part of a coding challenge. When the user locates and follows the bot, the bot will give the user a direct message containing a clue. ",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "node index.js",
+    "start-watch": "nodemon index.js"
   },
   "author": "Dane Williamson",
   "license": "ISC"

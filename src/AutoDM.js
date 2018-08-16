@@ -1,10 +1,10 @@
 const T = require("./Twit.js");
 const my_user_name = require("./config/config").userName;
-const timeout = 1000 * 60 * 5; // timeout to send the message 5 min
+const timeout = 1 * 60 * 5; // timeout to send the message 5 min
 
 const AutoDM = () => {
   const stream = T.stream("user");
-  console.log("Start Sending Auto Direct Message 🚀🚀🚀");
+  console.log("Follow The Bot To Get A Message");
   stream.on("follow", SendMessage);
 };
 const SendMessage = user =>
@@ -20,14 +20,17 @@ const SendMessage = user =>
   if (screen_name != my_user_name)
   {
     console.log("New Follower");
-    setTimeout(() => {
+    setTimeout(() =>
+    {
       console.log(obj);
       T.post("direct_messages/new", obj)
-        .catch(err => {
+        .catch(err =>
+        {
           console.error("error", err.stack);
         })
-        .then(result => {
-          console.log(`Message sent successfully To  ${screen_name}  💪💪`);
+        .then(result =>
+        {
+          console.log(`Message sent  To  ${screen_name}`);
         });
     }, timeout);
   }
