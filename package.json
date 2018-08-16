@@ -1,13 +1,19 @@
 {
   "name": "twitter-autodm",
   "version": "1.0.0",
-  "description": "This is a twitter bot which is part of a coding challenge. When the user locates and follows the bot, the bot will give the user a direct message containing a clue. ",
+  "description": "This is a twitter bot which is part of a coding challenge.When the user locates and follows the bot, the bot will give the user a direct message containing a clue. ",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "mocha server/**/*.test.js",
     "start": "node index.js",
-    "start-watch": "nodemon index.js"
+    "start-watch": "nodemon index.js",
+    "test-watch": "nodemon --exec npm test"
   },
   "author": "Dane Williamson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^23.5.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
 }
