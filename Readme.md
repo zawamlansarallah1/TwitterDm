@@ -1,5 +1,8 @@
 ### Twitter Auto DM Bot
 
+You can test my sample twitter bot by following this account:
+https://twitter.com/dbottest1
+
 1. Apply for a twitter developer account at : https://developer.twitter.com/en/apply-for-access.html
 
 2. Clone this repository then navigate to the root directory
