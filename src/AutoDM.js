@@ -16,7 +16,6 @@ const SendMessage = user =>
     screen_name,
     text: GenerateMessage(name)
   };
-  // the follow stream track if I follow author person too.
   if (screen_name != my_user_name)
   {
     console.log("New Follower");
@@ -37,18 +36,7 @@ const SendMessage = user =>
 };
 const GenerateMessage = name =>
 {
-  const days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-  ];
-  const d = new Date();
-  const dayName = days[d.getDay()];
-  return `Happy ${dayName} Welcome to the IBM Open the Vault Challenge`;
+  return `Well Done, Password is: nuwanda`;
 };
 
 module.exports = AutoDM;
