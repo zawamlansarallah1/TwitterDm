@@ -36,7 +36,7 @@ const SendMessage = user =>
 };
 const GenerateMessage = name =>
 {
-  return `Well Done, Password is: nuwanda`;
+  return `Well Done, Password is: Porunga`;
 };
 
 module.exports = AutoDM;
