@@ -1,10 +1,12 @@
 {
   "development":
   {
-    "CONSUMER_KEY": "*********",
-    "CONSUMER_SECRET": "*********",
-    "ACCESS_TOKEN": "*********",
-    "ACCESS_TOKEN_SECRET": "*********",
-    "USERNAME": "********"
+    "CONSUMER_KEY": "MQFSrXKABNh0x9habZgLXfcYg",
+    "CONSUMER_SECRET": "7AJXcLakzj9oQm6pbbj7iBS0Wa3jemPOizTUMzXaPh03dcKSLS",
+    "ACCESS_TOKEN": "772065071774179328-c0cpr0GdZoA4Eg0WWbWacg6Q5Kl69Hd",
+    "ACCESS_TOKEN_SECRET": "VVK3vlrV3BTZUdL1BjLLTi6Z9qNWiEmWoX5MwQkroGLHK
+
+",
+    "USERNAME": "udayyemen"
   }
 }
